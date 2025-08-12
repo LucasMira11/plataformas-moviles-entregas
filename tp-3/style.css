@@ -1,0 +1,45 @@
+/* Regla para centrar el título h1 */
+h1 {
+    text-align: center;
+}
+
+/* Regla para aplicar fuente con serifas a todos los párrafos */
+p {
+    font-family: serif;
+}
+
+/* Regla para el elemento #primer-parrafo con color de fondo #CEE */
+#primer-parrafo {
+    background-color: #CEE;
+}
+
+/* Regla para cambiar el color a #933 para los elementos em del primer párrafo */
+#primer-parrafo em {
+    color: #933;
+}
+
+/* Regla para que todos los links muestren outline */
+a {
+    outline: 1px solid #333;
+}
+
+/* Regla para que el texto p.fuente tenga opacidad 100% */
+p.fuente {
+    opacity: 100%;
+}
+
+/* Regla para que los párrafos sin id no tengan sombra */
+p:not([id]) {
+    text-shadow: none;
+}
+
+/* Bonus Track: Regla para que el texto del elemento p.fuente tenga color #000 */
+p.fuente {
+    color: #000;
+}
+
+/* Bonus Track: Regla para que el elemento con clase .complicado aparezca en negrita y con color #C62 */
+.complicado {
+    font-weight: bold;
+    color: #C62;
+} 
